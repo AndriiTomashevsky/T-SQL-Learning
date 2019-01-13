@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		UNION.sql = UNION.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternetStore", "InternetStore", "{669FE802-9C72-403B-BB4E-DFD6AA95BB08}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternetStoreDb", "InternetStoreDb", "{669FE802-9C72-403B-BB4E-DFD6AA95BB08}"
 	ProjectSection(SolutionItems) = preProject
 		001_Database creation.sql = 001_Database creation.sql
 		002_Trigger.sql = 002_Trigger.sql
@@ -70,6 +70,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_Trigger", "002_Trigger"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "009_Transactions_Triggers", "009_Transactions_Triggers", "{991677AF-7E54-416A-80FF-C9716D0CAA78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metanit", "Metanit", "{26674977-0161-4CCF-AA96-78E8C2562D03}"
+	ProjectSection(SolutionItems) = preProject
+		1.First T-SQL query.sql = 1.First T-SQL query.sql
+		10. SQL Server grouping extension.sql = 10. SQL Server grouping extension.sql
+		2. T-SQL Essential. DML. Adding data. Insert command.sql = 2. T-SQL Essential. DML. Adding data. Insert command.sql
+		3. Selection data. SELECT command.sql = 3. Selection data. SELECT command.sql
+		4 .Sorting. ORDER BY.sql = 4 .Sorting. ORDER BY.sql
+		5. Select range of rows.sql = 5. Select range of rows.sql
+		6. Filtering. WHERE.sql = 6. Filtering. WHERE.sql
+		7. Filter operators.sql = 7. Filter operators.sql
+		8. Grouping. Aggregate function.sql = 8. Grouping. Aggregate function.sql
+		9. GROUP BY and HAVING operators.sql = 9. GROUP BY and HAVING operators.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution

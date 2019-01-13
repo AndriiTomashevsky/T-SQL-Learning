@@ -1,0 +1,14 @@
+﻿SELECT TOP 4 ProductName
+FROM Products
+
+SELECT TOP 75 PERCENT ProductName
+FROM Products
+
+SELECT * FROM Products
+ORDER BY Id 
+    OFFSET 2 ROWS;
+
+SELECT * FROM Products
+ORDER BY Id 
+    OFFSET 2 ROWS
+    FETCH NEXT 3 ROWS ONLY;
