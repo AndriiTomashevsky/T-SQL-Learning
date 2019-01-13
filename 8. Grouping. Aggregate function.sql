@@ -17,6 +17,8 @@ SELECT * FROM Products
 
 SELECT MIN(Price) FROM Products
 
+SELECT * FROM Products
+
 SELECT MAX(Price) FROM Products
 
 SELECT SUM(ProductCount) FROM Products

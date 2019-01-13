@@ -74,7 +74,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metanit", "Metanit", "{26674977-0161-4CCF-AA96-78E8C2562D03}"
 	ProjectSection(SolutionItems) = preProject
 		1.First T-SQL query.sql = 1.First T-SQL query.sql
-		10. SQL Server grouping extension.sql = 10. SQL Server grouping extension.sql
+		10. SQL Server grouping extensions.sql = 10. SQL Server grouping extensions.sql
+		11. Subquery.sql = 11. Subquery.sql
 		2. T-SQL Essential. DML. Adding data. Insert command.sql = 2. T-SQL Essential. DML. Adding data. Insert command.sql
 		3. Selection data. SELECT command.sql = 3. Selection data. SELECT command.sql
 		4 .Sorting. ORDER BY.sql = 4 .Sorting. ORDER BY.sql
