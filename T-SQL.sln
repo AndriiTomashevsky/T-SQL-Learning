@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternetStoreDb", "Internet
 	ProjectSection(SolutionItems) = preProject
 		001_Database creation.sql = 001_Database creation.sql
 		002_Trigger.sql = 002_Trigger.sql
+		003_Query.sql = 003_Query.sql
+		004_Subquery. Function.sql = 004_Subquery. Function.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Essential", "SQL Essential", "{8F8354EB-0229-42B3-98B4-6B3D912199F6}"
@@ -43,6 +45,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_DataTypes", "001_DataTy
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Practice", "SQL Practice", "{17CDDE26-DDE9-485F-927A-ACB9DF554758}"
+	ProjectSection(SolutionItems) = preProject
+		SQL Practice\003_Query\003_Query answer.sql = SQL Practice\003_Query\003_Query answer.sql
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_Database creation", "001_Database creation", "{2787D223-1F55-4CBE-9392-C416FA614F09}"
 	ProjectSection(SolutionItems) = preProject
@@ -86,6 +91,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metanit", "Metanit", "{2667
 		9. GROUP BY and HAVING operators.sql = 9. GROUP BY and HAVING operators.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004_Subquery. Function", "004_Subquery. Function", "{78045CCE-EA19-4BCE-B009-14DFF6D773F3}"
+	ProjectSection(SolutionItems) = preProject
+		SQL Practice\004_Subquery. Function\004_Subquery. Function answer.sql = SQL Practice\004_Subquery. Function\004_Subquery. Function answer.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +106,7 @@ Global
 		{A005DA23-842D-4150-BC40-917501CEDDA1} = {8F8354EB-0229-42B3-98B4-6B3D912199F6}
 		{39A16C1F-D997-4E27-889F-9E30630FB8E9} = {17CDDE26-DDE9-485F-927A-ACB9DF554758}
 		{991677AF-7E54-416A-80FF-C9716D0CAA78} = {8F8354EB-0229-42B3-98B4-6B3D912199F6}
+		{78045CCE-EA19-4BCE-B009-14DFF6D773F3} = {17CDDE26-DDE9-485F-927A-ACB9DF554758}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0EDFDD81-1445-453A-943D-E408AACFC21F}

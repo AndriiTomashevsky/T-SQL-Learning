@@ -24,10 +24,27 @@ GO
 
 --2. ПРОСТЫЕ ЗАПРОСЫ.
 --1) Вывести все заказы, которые были сделаны за последние два месяца.
+select * from Orders
+where OrderDate between dateadd(day,-60,getdate()) and getdate()
+
+select * from Orders
+where OrderDate >= dateadd(MONTH,-2,getdate())
+
+
 --2) Вывести все товары, которые есть в InternetShopDB под маркой "Dell".
+select * from Products
+where name like '%deLL%'
+
 --3) Вывести список всех ноутбуков и нетбуков.
+select * from Products
+where name like '%ноутбук%' or name like '%нетбук%'
 --4) Вывести всех сотрудников, у которых премия больше чем 10% от з/п.
+select * from Employees
+where PriorSalary>Salary*0.1
 --5) Вывести список клиентов, которые проживают в городе Киеве или Львове.
+select * from Customers
+where city in ('киев','львов')
 --6) Вывести перечень имеющихся в магазине должностей.
+select distinct(Post) from Employees
 
 
